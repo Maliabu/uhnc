@@ -2,6 +2,7 @@ html {
     overflow-x: hidden;
     font-family: Roboto;
     scroll-behavior: smooth;
+    background-color: #263d0f;
 }
 
 body {
@@ -10,13 +11,10 @@ body {
 }
 
 .mom {
-    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(214, 187, 136, 0)), url("images/maternal.jpg");
+    background-image: url("images/images\ \(15\).jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
-    color: white;
-    padding: 3%;
-    clip-path: polygon(71% 0, 100% 20%, 100% 100%, 0 100%, 0 0);
 }
 
 .htn {
@@ -24,6 +22,10 @@ body {
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.next {
+    color: #263d0f00;
 }
 
 .carousel {
@@ -78,8 +80,8 @@ input {
 }
 
 .cough {
-    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://www.mckenzie-apartments.com/wp-content/uploads/2020/01/healthy.png");
-    background-position: left;
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("images/child.jpg");
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -126,11 +128,9 @@ input {
 }
 
 .table {
-    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.521), rgba(0, 58, 58, 0.76)), url("http://www.womenfitness.net/wp/wp-content/uploads/2016/09/pregnancy-nutrition-1000x667.png");
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.404), rgba(255, 255, 255, 0.267)), url("images/images\ \(16\).jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    color: white;
 }
 
 .uno {
@@ -163,6 +163,10 @@ input {
     background-size: cover;
     padding: 15%;
     background-image: url("data:image/jpeg;base64,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");
+}
+
+.bg-white {
+    background-color: rgb(255, 255, 255) !important;
 }
 
 .diab {
@@ -222,6 +226,8 @@ input {
 
 .fix {
     z-index: 1;
+    background-color: #263d0f;
+    color: white !important;
 }
 
 .actives {
@@ -319,7 +325,7 @@ h2 {
 }
 
 .one {
-    background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://www.kindpng.com/picc/m/383-3836012_transparent-vegetales-png-healthy-food-transparent-background-png.png");
+    background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("images/child.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -420,31 +426,55 @@ input {
 }
 
 .covid {
-    background-image: url("images/doctor.jpeg");
+    background-image: url("images/images\ \(20\).jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .childs {
-    background-image: url("images/child.jpg");
+    background-image: url("images/images\ \(23\).jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .pork {
-    background-image: url("images/fruits.jpg");
+    background-image: url("images/images\ \(24\).jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.exercises {
+.dessert {
+    background-image: url("images/images\ \(20\).jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.eggs {
+    background-image: url("images/images\ \(25\).jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.doc {
+    background-image: url("images/doc.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fitness {
     background-image: url("images/exercise.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.exercises {
+    background-image: url("images/images\ \(16\).jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .mat {
-    background-image: url("images/maternal.jpg");
+    background-image: url("images/images\ \(13\).jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -456,7 +486,7 @@ input {
 }
 
 a {
-    color: rgb(0, 0, 0) !important;
+    color: rgb(43, 43, 43) !important;
 }
 
 .filling {
@@ -475,8 +505,8 @@ a {
     color: rgb(1, 78, 78);
 }
 
-.next {
-    color: rgba(0, 11, 20, 0.63);
+.greeny {
+    color: #80ff00;
 }
 
 .bod {
