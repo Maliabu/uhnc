@@ -42,11 +42,6 @@ body {
     background-position: center;
 }
 
-h4,
-h2 {
-    font-weight: lighter !important;
-}
-
 p,
 li {
     font-size: small !important;
@@ -155,14 +150,14 @@ input {
 }
 
 .diab {
-    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://images.edexlive.com/uploads/user/imagelibrary/2020/6/14/original/adobestock_276205639.jpeg");
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("images/doc.jpg");
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .hyp {
-    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://www.aoa.org/AOA/Images/News_2020/BloodPressurCheck900x450.jpg");
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgb(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("https://s3.ap-south-1.amazonaws.com/m3india-app-dev/ckeditor/content/hyper-1525323228.jpg");
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -399,13 +394,13 @@ input {
 }
 
 .breastfeeding {
-    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0), #81C341), url("https://onlinelibrary.wiley.com/pb-assets/20487177/Bioactive%20compounds-1615400802.jpg");
+    background-image: url("images/images\ \(58\).jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .rainbow {
-    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0), #81C341), url("https://www.helpguide.org/wp-content/uploads/young-woman-running-along-dirt-road-768.jpg");
+    background-image: url("https://www.helpguide.org/wp-content/uploads/young-woman-running-along-dirt-road-768.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -439,14 +434,15 @@ input {
 }
 
 .chy {
-    background-image: url("https://static.toiimg.com/photo/msid-67851393/67851393.jpg?1219516");
+    background-image: url("images/images\ \(34\).jpeg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .salt {
-    background-image: url("images/images\ \(34\).jpeg");
-    background-size: cover;
+    background-image: url("images/images\ \(51\).jpeg");
+    background-size: 80%;
     background-repeat: no-repeat;
 }
 
@@ -469,19 +465,19 @@ input {
 }
 
 .exercises {
-    background-image: url("images/images\ \(16\).jpeg");
+    background-image: url("images/yogy.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .mat {
-    background-image: url("images/images\ \(13\).jpeg");
+    background-image: url("https://miro.medium.com/max/4000/1*-J8kJarMo45AdiLmn-83fw.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .exercise {
-    background-image: url("images/htn.jpg");
+    background-image: url("images/images\ \(20\).jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -522,8 +518,8 @@ a {
     background-color: orange;
 }
 
-.indigo {
-    background-color: indigo;
+.brown {
+    background-color: rgb(114, 96, 96);
 }
 
 .violet {
